@@ -1,0 +1,76 @@
+2024-08-02 22:17:22,842 - apscheduler.scheduler - INFO - Scheduler started
+2024-08-02 22:17:42,565 - __main__ - INFO - Bot started and waiting for CSV file.
+2024-08-02 22:18:06,399 - __main__ - INFO - Received CSV file from user.
+2024-08-02 22:18:21,743 - __main__ - INFO - Pesan terkirim ke abi 81998043342
+2024-08-02 22:19:07,437 - __main__ - INFO - Pesan terkirim ke ika 87777895106
+2024-08-02 22:21:09,855 - __main__ - INFO - Bot started and waiting for CSV file.
+2024-08-02 22:21:29,199 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-08-02 22:21:29,200 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-08-04 07:56:31,390 - apscheduler.scheduler - INFO - Scheduler started
+2024-08-04 07:56:34,648 - __main__ - INFO - Bot started and waiting for CSV file.
+2024-08-04 07:57:55,420 - __main__ - INFO - Bot started and waiting for CSV file.
+2024-08-04 08:01:53,515 - __main__ - INFO - Bot started and waiting for CSV file.
+2024-08-04 08:02:21,783 - __main__ - INFO - Received CSV file from user.
+2024-08-04 08:02:37,169 - __main__ - INFO - Pesan terkirim kepada (abi) +6281998043342
+2024-08-04 08:03:07,795 - __main__ - INFO - Pesan terkirim kepada (ika) +6287777895106
+2024-08-04 08:04:32,088 - __main__ - INFO - Bot started and waiting for CSV file.
+2024-08-04 08:04:53,656 - __main__ - INFO - Bot started and waiting for CSV file.
+2024-08-04 08:05:04,794 - __main__ - INFO - Received CSV file from user.
+2024-08-04 08:05:20,072 - __main__ - INFO - Pesan terkirim kepada (abi) +6281998043342
+2024-08-04 08:05:50,771 - __main__ - INFO - Pesan terkirim kepada (ika) +6287777895106
+2024-08-04 08:11:53,173 - telegram.ext.updater - INFO - Flood control exceeded. Retry in 5.0 seconds
+2024-08-04 08:11:58,855 - telegram.ext.updater - ERROR - Error while getting Updates: Bad Gateway
+2024-08-04 08:11:58,855 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Qaskus\AppData\Roaming\Python\Python311\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+           ^^^^^^^^^^^
+  File "C:\Users\Qaskus\AppData\Roaming\Python\Python311\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Qaskus\AppData\Roaming\Python\Python311\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Qaskus\AppData\Roaming\Python\Python311\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Qaskus\AppData\Roaming\Python\Python311\site-packages\telegram\bot.py", line 2861, in get_updates
+    self._post(
+  File "C:\Users\Qaskus\AppData\Roaming\Python\Python311\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Qaskus\AppData\Roaming\Python\Python311\site-packages\telegram\utils\request.py", line 356, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Qaskus\AppData\Roaming\Python\Python311\site-packages\telegram\utils\request.py", line 290, in _request_wrapper
+    raise NetworkError('Bad Gateway')
+telegram.error.NetworkError: Bad Gateway
+2024-08-04 08:12:07,298 - telegram.ext.updater - ERROR - Error while getting Updates: Bad Gateway
+2024-08-04 08:12:07,298 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Qaskus\AppData\Roaming\Python\Python311\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+           ^^^^^^^^^^^
+  File "C:\Users\Qaskus\AppData\Roaming\Python\Python311\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Qaskus\AppData\Roaming\Python\Python311\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Qaskus\AppData\Roaming\Python\Python311\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Qaskus\AppData\Roaming\Python\Python311\site-packages\telegram\bot.py", line 2861, in get_updates
+    self._post(
+  File "C:\Users\Qaskus\AppData\Roaming\Python\Python311\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Qaskus\AppData\Roaming\Python\Python311\site-packages\telegram\utils\request.py", line 356, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Qaskus\AppData\Roaming\Python\Python311\site-packages\telegram\utils\request.py", line 290, in _request_wrapper
+    raise NetworkError('Bad Gateway')
+telegram.error.NetworkError: Bad Gateway
+2024-08-04 09:29:56,643 - __main__ - INFO - Bot started and waiting for CSV file.
+2024-08-04 09:30:12,917 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-08-04 09:30:12,917 - apscheduler.scheduler - INFO - Scheduler has been shut down
